@@ -3,7 +3,7 @@ const Book = require("../models/book.model.js");
 module.exports.index = async (request, response, next) => {
   try {
     var a;
-    a.b();
+    a.c();
     var books = await Book.find();
     var page = parseInt(request.query.page) || 1;
     var perPage = 5;
